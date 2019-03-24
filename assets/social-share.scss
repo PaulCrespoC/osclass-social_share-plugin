@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?596h4r');
+  src:  url('fonts/icomoon.eot?596h4r#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?596h4r') format('truetype'),
+  url('fonts/icomoon.woff?596h4r') format('woff'),
+  url('fonts/icomoon.svg?596h4r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.social-share {
+
+  margin-bottom: 15px;
+
+  a, div, i {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  *, :after, :before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a {
+    -moz-transition: color .2s ease-in-out, border-bottom-color .2s ease-in-out;
+    -webkit-transition: color .2s ease-in-out, border-bottom-color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out, border-bottom-color .2s ease-in-out;
+    transition: color .2s ease-in-out, border-bottom-color .2s ease-in-out;
+    border-bottom: dotted 1px;
+    color: #0278ae;
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-bottom-color: #0278ae;
+    color: #0278ae !important;
+  }
+
+  i {
+    font-style: italic;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #9fa3a6 !important;
+    opacity: 1;
+  }
+
+  :-moz-placeholder {
+    color: #9fa3a6 !important;
+    opacity: 1;
+  }
+
+  ::-moz-placeholder {
+    color: #9fa3a6 !important;
+    opacity: 1;
+  }
+
+  :-ms-input-placeholder {
+    color: #9fa3a6 !important;
+    opacity: 1;
+  }
+
+  .effect a, .effect a i {
+    position: relative;
+  }
+
+  .effect .buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .effect a {
+    text-decoration: none !important;
+    color: #fff !important;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    overflow: hidden;
+  }
+
+  .effect a:hover {
+    border-bottom-color: #fff !important;
+  }
+
+  .effect a i {
+    z-index: 3;
+  }
+
+  .effect a.fb {
+    background-color: #3b5998;
+  }
+
+  .effect a.print {
+    background-color: #fcdc74;
+  }
+
+  .effect a.tw {
+    background-color: #00aced;
+  }
+
+  .effect a.wpp {
+    background-color: #25d366;
+  }
+
+  .effect a.pin {
+    background-color: #bd081c;
+  }
+
+  .effect a.gpl {
+    background-color: #dc4e41;
+  }
+
+  .effect.jaques a {
+    transition: border-top-left-radius .1s linear 0s, border-top-right-radius .1s linear .1s, border-bottom-right-radius .1s linear .2s, border-bottom-left-radius .1s linear .3s;
+  }
+
+  .effect.jaques a:hover {
+    border-radius: 50%;
+  }
+
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-google-plus:before {
+    content: "\ea8b";
+  }
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-whatsapp:before {
+    content: "\ea93";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-pinterest2:before {
+    content: "\ead2";
+  }
+}

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?596h4r");
+  src: url("fonts/icomoon.eot?596h4r#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?596h4r") format("truetype"), url("fonts/icomoon.woff?596h4r") format("woff"), url("fonts/icomoon.svg?596h4r#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.social-share {
+  margin-bottom: 15px;
+}
+.social-share a, .social-share div, .social-share i {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.social-share *, .social-share :after, .social-share :before {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.social-share a {
+  -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  color: #0278ae;
+  text-decoration: none;
+}
+.social-share a:hover {
+  border-bottom-color: #0278ae;
+  color: #0278ae !important;
+}
+.social-share i {
+  font-style: italic;
+}
+.social-share ::-webkit-input-placeholder {
+  color: #9fa3a6 !important;
+  opacity: 1;
+}
+.social-share :-moz-placeholder {
+  color: #9fa3a6 !important;
+  opacity: 1;
+}
+.social-share ::-moz-placeholder {
+  color: #9fa3a6 !important;
+  opacity: 1;
+}
+.social-share :-ms-input-placeholder {
+  color: #9fa3a6 !important;
+  opacity: 1;
+}
+.social-share .effect a, .social-share .effect a i {
+  position: relative;
+}
+.social-share .effect .buttons {
+  display: flex;
+  justify-content: center;
+}
+.social-share .effect a {
+  text-decoration: none !important;
+  color: #fff !important;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 25px;
+  overflow: hidden;
+}
+.social-share .effect a:hover {
+  border-bottom-color: #fff !important;
+}
+.social-share .effect a i {
+  z-index: 3;
+}
+.social-share .effect a.fb {
+  background-color: #3b5998;
+}
+.social-share .effect a.print {
+  background-color: #fcdc74;
+}
+.social-share .effect a.tw {
+  background-color: #00aced;
+}
+.social-share .effect a.wpp {
+  background-color: #25d366;
+}
+.social-share .effect a.pin {
+  background-color: #bd081c;
+}
+.social-share .effect a.gpl {
+  background-color: #dc4e41;
+}
+.social-share .effect.jaques a {
+  transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+.social-share .effect.jaques a:hover {
+  border-radius: 50%;
+}
+.social-share [class^=icon-], .social-share [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.social-share .icon-google-plus:before {
+  content: "";
+}
+.social-share .icon-facebook:before {
+  content: "";
+}
+.social-share .icon-instagram:before {
+  content: "";
+}
+.social-share .icon-whatsapp:before {
+  content: "";
+}
+.social-share .icon-twitter:before {
+  content: "";
+}
+.social-share .icon-pinterest2:before {
+  content: "";
+}
+
+/*# sourceMappingURL=social-share.css.map */
