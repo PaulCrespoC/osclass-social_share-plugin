@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Social Share
-Plugin URI: https://github.com/PaulCrespoC/osclass-social-share
+Plugin URI: https://github.com/PaulCrespoC/osclass-social_share-plugin
 Description: This plugin adds a simple item social share
 Version: 1.0.0
 Author: DevStdio
